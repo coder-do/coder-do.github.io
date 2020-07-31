@@ -1,0 +1,128 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 13px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 23px;
+}
+h3 {
+	font-size: 15px;
+}
+
+.header {
+	background: url("../img/background.jpg") no-repeat center top;
+	padding-bottom: 315px;
+}
+
+p {
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin-left: 375px;
+}
+
+.logo {
+	padding-top: 47px;
+}
+
+h1 {
+	margin-top: 246px;
+	text-transform: uppercase;
+	font-size: 37px;
+}
+
+.head p {
+	font-size: 20px;
+}
+
+.wh {
+	text-transform: uppercase;
+	padding-top: 124px;
+}
+
+.list {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 83px;
+}
+
+.item1, .item2, .item3 {
+	width: 340px;
+	padding-left: 87px;
+}
+
+.item p {
+	margin-bottom: 5px;
+}
+
+.item1 {
+	background: url("../img/icon1.jpg") no-repeat left top;
+	margin-right: 100px;
+}
+.item2 {
+	background: url("../img/icon2.jpg") no-repeat left top;
+	margin-right: 100px;
+	margin-bottom: 127px;
+}
+.item3 {
+	background: url("../img/icon3.jpg") no-repeat left top;
+}
+
+.gallery {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 93px;
+	margin-bottom: 91px;
+}
+
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(0.9);
+}
+
+.container h4 {
+	color: #000;
+}
+
+.btn {
+	display: block;
+	text-decoration: none;
+	width: 236px;
+	height: 50px;
+	text-align: center;
+	padding: 15px 0;
+	background: #ecac2e;
+	margin-top: 93px;
+	border-radius: 40px;
+	transition: all 0.5 ease;
+}
+
+.btn:hover {
+	background: #d5290e;
+	transition: all 0.5s ease;
+}
+
+.about {
+	display: flex;
+	background: #000;
+	margin-top: 114px;
+	color: white;
+	height: 125px;
+	align-items: center;
+}
+
+.p1 {
+	margin-left: 375px;
+}
+
+.about p {
+	margin-right: 75px;
+}
