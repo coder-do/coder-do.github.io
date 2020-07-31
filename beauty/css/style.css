@@ -1,0 +1,444 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav h2 {
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1170px;
+  margin-left: 405px;
+  /*margin: 0 auto;*/
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nav h2 {
+  width: 158px;
+  margin-left: 20px;
+  letter-spacing: 0.1em;
+  color: #f13c6e;
+  margin-right: 172px;
+  font-size: 36px;
+}
+
+form {
+  position: relative;
+  width: 250px;
+  height: 40px;
+}
+.form input,
+button {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+input {
+  width: 250px;
+  height: 40px;
+  background: #efefef;
+  padding-left: 45px;
+  padding-top: 3px;
+}
+button {
+  height: 26px;
+  width: 26px;
+  position: absolute;
+  top: 10px;
+  right: 211px;
+  background: #efefef;
+  /*cursor: pointer;*/
+  background: url("../img/Vector.svg") no-repeat center top;
+}
+
+.tel {
+  width: 127px;
+  color: black;
+  margin-left: 93px;
+  margin-right: 40px;
+  font-size: 16px;
+}
+
+.tel:hover {
+  border-bottom: 1px solid #000;
+}
+
+.btn {
+  display: block;
+  font-size: 14px;
+  border: 2px solid #f13c6e;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 13px 26px;
+  transition: all 0.5s ease;
+  margin-left: 56px;
+}
+
+.btn:hover {
+  background: #f13c6e;
+}
+
+.nav_bottom {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.line {
+  border-top: 1px solid #efefef;
+  margin-top: 20px;
+}
+
+.bottom {
+  width: 705px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  margin-left: 583px;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.bottom li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.kreslo {
+  background: url("../img/fon.jpg") no-repeat center top / cover;
+  height: 604px;
+}
+
+.super {
+  color: #fff;
+  width: 308px;
+  margin-left: 405px;
+  padding-top: 155px;
+  padding-bottom: 193px;
+}
+
+.super h1 {
+  font-size: 48px;
+}
+
+.super p {
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 21px;
+}
+
+.super a {
+  margin-bottom: 193px;
+}
+
+.btn1 {
+  color: white;
+  display: block;
+  width: 170px;
+  height: 50px;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 40px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  transition: all 0.5s ease;
+  padding: 15px 26px;
+  margin-top: 50px;
+}
+
+.btn1:hover {
+  background: white;
+  color: black;
+}
+
+.section {
+  background: #efefef;
+}
+
+.special {
+  padding-top: 80px;
+  font-size: 24px;
+  padding-bottom: 38px;
+}
+
+.off_kreslo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  text-align: center;
+}
+
+.off1,
+.off2,
+.off3,
+.off4 {
+  background: white;
+  width: 255px;
+  height: 363px;
+}
+
+.off_kreslo img {
+  padding-top: 25px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.off_kreslo p {
+  padding-left: 30px;
+  padding-right: 30px;
+  line-height: 20px;
+}
+
+.rubli {
+  letter-spacing: 0.05em;
+  line-height: 25px;
+  font-size: 21px;
+}
+
+.button_buy {
+  display: block;
+  width: 135px;
+  height: 35px;
+  background: #f13c6e;
+  border-radius: 30px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  padding-top: 8px;
+  margin-left: 58px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 20px;
+  transition: all 0.5s ease;
+}
+
+.button_buy:hover {
+  background: rgb(194, 20, 20);
+  color: #fff;
+}
+
+.bonus {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bonus1,
+.bonus2 {
+  width: 540px;
+  height: 212px;
+  background: #f13c6e;
+  color: #fff;
+}
+
+.bonus h3 {
+  font-size: 18px;
+  padding-top: 22px;
+  padding-left: 40px;
+}
+
+.bonus p {
+  font-size: 14px;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.bonus1 p {
+  width: 271px;
+  height: 40px;
+  line-height: 20px;
+  padding-top: 3px;
+}
+
+.bonus img {
+  float: right;
+  padding-right: 45px;
+  padding-top: 60px;
+}
+
+.form2 {
+  /*position: relative;*/
+  width: 225px;
+  height: 35px;
+  padding-left: 36px;
+  padding-top: 8px;
+}
+
+.bonus input {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+}
+
+.btn_karta {
+  color: white;
+  display: block;
+  width: 180px;
+  height: 35px;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  border-radius: 30px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+  padding-top: 7px;
+  margin-left: 35px;
+  margin-top: 22px;
+}
+
+.btn_karta:hover {
+  background: #fff;
+  color: #000;
+}
+
+.impuls {
+  margin-top: 100px;
+  width: 1170px;
+  height: 357px;
+}
+
+.impuls1 {
+  display: flex;
+  background: #fff;
+  width: 1170px;
+  height: 119px;
+  border-bottom: 1px solid #efefef;
+}
+
+.impuls1 img {
+  width: 149px;
+  height: 49px;
+  margin-left: 80px;
+  margin-top: 35px;
+}
+
+hr {
+  margin: 0;
+  margin-left: 55px;
+  border: 1px solid #efefef;
+}
+
+.recent_h2 {
+  margin-top: 80px;
+  margin-bottom: 38px;
+}
+
+#off4 {
+  margin-bottom: 89px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px;
+}
+
+.head h3 {
+  width: 255px;
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 30px;
+}
+
+.cont {
+  list-style-type: none;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  padding-bottom: 60px;
+}
+
+.cont a:hover {
+  color: rgb(41, 113, 228);
+  font-size: 16px;
+}
+
+.under_head {
+  border-top: 1px solid #efefef;
+}
+
+.contacts {
+  display: flex;
+  width: 1170px;
+  height: 120px;
+  margin-left: 405px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.youtube {
+  border: 2px solid #f13c6e;
+  border-radius: 30px;
+  padding: 15px 12px 11px 13px;
+  margin-right: 20px;
+}
+
+.vk {
+  border: 2px solid #f13c6e;
+  border-radius: 30px;
+  padding: 15px 11px 11px 9px;
+  margin-right: 20px;
+}
+
+.vk:hover,
+.youtube:hover,
+.facebook:hover,
+.instagram:hover {
+  background: rgb(248, 230, 220);
+}
+
+.facebook {
+  border: 2px solid #f13c6e;
+  border-radius: 30px;
+  padding: 15px 14px 8px 13px;
+  margin-right: 20px;
+}
+
+.instagram {
+  border: 2px solid #f13c6e;
+  border-radius: 25px;
+  padding: 13px 14px 9px 14px;
+  margin-right: 20px;
+}
+
+.adres {
+  margin-left: 205px;
+}
+
+.tel2 {
+  font-size: 16px;
+  margin-left: 80px;
+  margin-right: 35px;
+}
+
+.btn2 {
+  display: block;
+  font-size: 14px;
+  border: 2px solid #f13c6e;
+  box-sizing: border-box;
+  border-radius: 40px;
+  padding: 11px 23px;
+  transition: all 0.5s ease;
+  margin-left: 40px;
+}
+
+.btn2:hover {
+  background: #f13c6e;
+  color: black;
+}
