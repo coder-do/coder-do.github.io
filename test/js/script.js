@@ -6,8 +6,8 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
         draggable: false,
         slidesToShow: 1,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../img/left_btn.png" alt="left_btn" class="d_n"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../img/right_btn.png" alt="right_btn" class="d_n"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="img/left_btn.png" alt="left_btn" class="d_n"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="img/right_btn.png" alt="right_btn" class="d_n"></button>',
         responsive: [
             {
                 breakpoint: 992,
