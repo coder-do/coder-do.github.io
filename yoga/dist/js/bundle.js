@@ -354,7 +354,7 @@ module.exports = tabs;
 /***/ (function(module, exports) {
 
 function timer() {
-    let deadLine = '2020-08-25';
+    let deadLine = '2020-09-05';
 
     function getTime(end) {
         let t = Date.parse(end) - Date.parse(new Date()),
