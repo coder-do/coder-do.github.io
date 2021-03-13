@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[17],{91:function(o){o.exports=JSON.parse('{"permalink":"https://coder-do.github.io/my_docusaurus/coder-do.github.io/docusaurus/index.html/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"previousPage":null,"nextPage":null,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
